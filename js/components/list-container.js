@@ -13,7 +13,6 @@ var ListContainer = React.createClass({
         this.setState({inputText: input.value});
     },
     onAddSubmit: function() {
-        console.log(this, 17);
         this.setState((prevState, props) => {
             prevState.cards.push(this.state.inputText)
             return;
