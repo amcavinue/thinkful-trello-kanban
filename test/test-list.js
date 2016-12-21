@@ -7,7 +7,7 @@ var expect = chai.expect;
 var List = require('../js/components/list');
 var Card = require('../js/components/card');
 
-describe('Card component', function() {
+describe('List component', function() {
     it('Renders a list with cards',  function() {
         var cards = ['abc', 'def', 'ghi'];
         var onAddInputChanged = function(input) {
