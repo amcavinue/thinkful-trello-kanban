@@ -17,8 +17,8 @@ describe('ListContainer component', function() {
         var result = renderer.getRenderOutput();
         
         // Test the component.
-        TestUtils.isElementOfType(result, 'ListContainer');
-        TestUtils.isElementOfType(result, 'List');
+        TestUtils.isElementOfType(result, ListContainer);
+        TestUtils.isElementOfType(result, List);
         TestUtils.isCompositeComponent(result);
         
         // Test the state.
